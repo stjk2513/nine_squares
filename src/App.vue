@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Box from "./Box.vue";
+import Grid from "./Grid.vue";
 </script>
 
 <template>
-  <Box />
+  <Grid />
 </template>
 
 <style scoped></style>

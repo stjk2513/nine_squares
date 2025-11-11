@@ -17,16 +17,16 @@ function toggleColor() {
     class="box"
     :style="{ background }"
     @click="toggleColor()"
-  >
-    hello
-  </div>
+  ></div>
 </template>
 
 <style scoped>
 .box {
   user-select: none;
+  aspect-ratio: 1 / 1;
 }
 .box:hover {
   cursor: pointer;
+  border: 1px solid rgb(129, 129, 129);
 }
 </style>
